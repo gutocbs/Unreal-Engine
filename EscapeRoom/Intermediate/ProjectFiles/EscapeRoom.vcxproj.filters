@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\EscapeRoom.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{6F807A85-C4BD-4F70-975C-6AB4BEC99DA4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EscapeRoom.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\EscapeRoomEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{04C0C038-39B3-4C52-B105-AE86FF4FC4A5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\EscapeRoom">
+      <UniqueIdentifier>{22A85891-2851-4AB9-8DCD-B682F7FE3E5F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EscapeRoom\EscapeRoom.Build.cs">
+      <Filter>Source\EscapeRoom</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\EscapeRoom\EscapeRoom.cpp">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeRoom\EscapeRoom.h">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeRoom\EscapeRoomGameModeBase.cpp">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeRoom\EscapeRoomGameModeBase.h">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeRoom\Grabber.cpp">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeRoom\Grabber.h">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeRoom\OpenDoor.cpp">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeRoom\OpenDoor.h">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeRoom\WorldPosition.cpp">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeRoom\WorldPosition.h">
+      <Filter>Source\EscapeRoom</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

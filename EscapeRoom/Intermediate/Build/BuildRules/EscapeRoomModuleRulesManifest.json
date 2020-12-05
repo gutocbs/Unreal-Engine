@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\Unreal\\Projects\\EscapeRoom\\Source\\EscapeRoom\\EscapeRoom.Build.cs",
+		"F:\\Unreal\\Projects\\EscapeRoom\\Source\\EscapeRoom.Target.cs",
+		"F:\\Unreal\\Projects\\EscapeRoom\\Source\\EscapeRoomEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

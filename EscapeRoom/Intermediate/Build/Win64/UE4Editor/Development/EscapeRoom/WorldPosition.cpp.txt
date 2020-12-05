@@ -1,0 +1,3 @@
+F:\Unreal\Projects\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\Definitions.EscapeRoom.h
+F:\Unreal\Projects\EscapeRoom\Source\EscapeRoom\WorldPosition.h
+F:\Unreal\Projects\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom\WorldPosition.generated.h
