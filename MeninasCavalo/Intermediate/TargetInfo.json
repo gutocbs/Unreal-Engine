@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MeninasCavalo",
+			"Path": "F:\\Unreal\\Projects\\MeninasCavalo\\Source\\MeninasCavalo.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MeninasCavaloEditor",
+			"Path": "F:\\Unreal\\Projects\\MeninasCavalo\\Source\\MeninasCavaloEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

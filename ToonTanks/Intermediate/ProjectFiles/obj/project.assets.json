@@ -1,0 +1,37 @@
+{
+  "version": 3,
+  "targets": {
+    "native,Version=v0.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "native,Version=v0.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Augusto\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "I:\\Unreal\\ToonTanks\\Intermediate\\ProjectFiles\\ToonTanks.vcxproj",
+      "projectName": "ToonTanks",
+      "projectPath": "I:\\Unreal\\ToonTanks\\Intermediate\\ProjectFiles\\ToonTanks.vcxproj",
+      "packagesPath": "C:\\Users\\Augusto\\.nuget\\packages\\",
+      "outputPath": "I:\\Unreal\\ToonTanks\\Intermediate\\ProjectFiles\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Augusto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "native"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      }
+    },
+    "frameworks": {
+      "native": {}
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"SourceFiles": [
+		"I:\\Unreal\\ToonTanks\\Source\\ToonTanks\\ToonTanks.Build.cs",
+		"I:\\Unreal\\ToonTanks\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+		"I:\\Unreal\\ToonTanks\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension\\RiderGameControlExtension.Build.cs",
+		"I:\\Unreal\\ToonTanks\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension\\RiderBlueprintExtension.Build.cs",
+		"I:\\Unreal\\ToonTanks\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+		"I:\\Unreal\\ToonTanks\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension\\RiderLoggingExtension.Build.cs",
+		"I:\\Unreal\\ToonTanks\\Source\\ToonTanks.Target.cs",
+		"I:\\Unreal\\ToonTanks\\Source\\ToonTanksEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

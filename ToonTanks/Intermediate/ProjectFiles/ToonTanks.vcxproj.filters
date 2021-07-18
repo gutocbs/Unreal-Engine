@@ -1,0 +1,1401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ToonTanks.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{EE468C40-92A7-45E4-8D21-0ED8A2BBED96}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTanksEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{44D3AF07-F7DC-4C06-94E1-5727BA11563A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{155E8E2E-9A95-4E45-AD9C-675CC3A4EE3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Developer">
+      <UniqueIdentifier>{6B9FA6CA-3021-4868-ABD5-D5AB818E310C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Developer\RiderLink">
+      <UniqueIdentifier>{C65FD537-EC8D-4478-B704-3DA86FE7CD7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Developer\RiderLink\Source">
+      <UniqueIdentifier>{B18CDB32-E3A6-4B50-8F2C-9C88F5F67F7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD">
+      <UniqueIdentifier>{16C09552-738E-4409-9025-31D0EEC1D276}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\RD.Build.cs">
+      <Filter>Plugins\Developer\RiderLink\Source\RD</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\RD.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\RD.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src">
+      <UniqueIdentifier>{3CE00400-7681-4D8E-A725-45C7E0430558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp">
+      <UniqueIdentifier>{08DD5533-9669-4D5E-938A-EC9549639170}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src">
+      <UniqueIdentifier>{CF6F738B-C045-42D1-B1D3-45424B2ED328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main">
+      <UniqueIdentifier>{06B9F455-526B-4994-B8CD-673961DA5D41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime">
+      <UniqueIdentifier>{5C72C1DC-4D4C-4863-82B7-70659C19A3F1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\Lifetime.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\Lifetime.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeDefinition.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeDefinition.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\SequentialLifetimes.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\SequentialLifetimes.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive">
+      <UniqueIdentifier>{FBAAF406-A550-488F-9E4A-6EE802E79102}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\Property.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\ViewableList.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\ViewableMap.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\ViewableSet.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base">
+      <UniqueIdentifier>{CC219B16-F000-4209-9A76-7E4B1E1AF168}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\interfaces.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IProperty.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IPropertyBase.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IViewableList.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IViewableMap.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IViewableSet.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalCookie.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalCookie.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalX.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\viewable_collections.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std">
+      <UniqueIdentifier>{18AAF56D-0EF7-4B1D-B224-47503B7EED3F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std\allocator.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std\hash.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std\list.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std\to_string.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std\unordered_map.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std\unordered_set.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types">
+      <UniqueIdentifier>{4157B550-BA1C-4FAD-9D92-3B1682C3809E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types\DateTime.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types\DateTime.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types\Void.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types\wrapper.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util">
+      <UniqueIdentifier>{DECDF9E5-9536-4EFB-BAB1-228F2AC689B2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\core_traits.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\core_util.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\enum.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\erase_if.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\gen_util.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\overloaded.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\shared_function.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp">
+      <UniqueIdentifier>{03863721-188A-4FC6-8D3B-BA9C85D7290F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\rd_framework_export.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src">
+      <UniqueIdentifier>{EC54A847-58E6-4956-8B23-C1203AF7890D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main">
+      <UniqueIdentifier>{89C7CB9D-87D5-4485-A15E-D055722DE43B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base">
+      <UniqueIdentifier>{18FF61CD-31AE-4589-9CC5-40D61CEF50FA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IProtocol.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IProtocol.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdBindable.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdDynamic.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdReactive.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdWireable.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdWireable.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\ISerializersOwner.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\ISerializersOwner.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IUnknownInstance.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IUnknownInstance.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IWire.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\RdBindableBase.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\RdBindableBase.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\RdPropertyBase.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\RdReactiveBase.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\RdReactiveBase.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\WireBase.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\WireBase.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext">
+      <UniqueIdentifier>{4159D0C8-312C-42A0-BD3F-5D6958C77FC9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\ExtWire.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\ExtWire.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\RdExtBase.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\RdExtBase.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl">
+      <UniqueIdentifier>{1A303A66-D07E-412E-91EF-DFB601600E17}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl\RdList.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl\RdMap.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl\RdProperty.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl\RdSet.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl\RdSignal.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl\RName.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl\RName.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern">
+      <UniqueIdentifier>{028FA6FE-8BB4-44BB-93C6-7BEB849BD50A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternRoot.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternRoot.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternScheduler.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternScheduler.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol">
+      <UniqueIdentifier>{6B77DF56-6AC4-4BAD-94E1-5F6C0F039A65}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\Buffer.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\Buffer.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\Identities.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\Identities.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\MessageBroker.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\MessageBroker.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\Protocol.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\Protocol.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\RdId.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol\RdId.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler">
+      <UniqueIdentifier>{951CC5A8-E13B-48D6-835A-A023824F1F5F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\SimpleScheduler.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\SimpleScheduler.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\SingleThreadScheduler.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\SingleThreadScheduler.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\SynchronousScheduler.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\SynchronousScheduler.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base">
+      <UniqueIdentifier>{FDAEC787-DAFC-49D4-86E7-C9AEEC9E77B1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base\IScheduler.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base\IScheduler.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base\SingleThreadSchedulerBase.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base\SingleThreadSchedulerBase.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization">
+      <UniqueIdentifier>{57C0E719-0D8F-4F5F-8A22-C07FA06618DB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\AbstractPolymorphic.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\ArraySerializer.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\DefaultAbstractDeclaration.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\DefaultAbstractDeclaration.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\InternedAnySerializer.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\InternedSerializer.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\ISerializable.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\ISerializable.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\NullableSerializer.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\Polymorphic.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\Polymorphic.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\RdAny.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\RdAny.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\SerializationCtx.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\SerializationCtx.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\Serializers.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\Serializers.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task">
+      <UniqueIdentifier>{8B755880-8CBB-4C30-9B16-07028CAA512A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdCall.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdEndpoint.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdSymmetricCall.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTask.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskImpl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskResult.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTask.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTaskImpl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util">
+      <UniqueIdentifier>{394C2A98-0D92-4C01-B0C0-4B9419D8A66B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\framework_traits.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\guards.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\hashing.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\hashing.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\thread_util.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\thread_util.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire">
+      <UniqueIdentifier>{FDE69411-DA8A-444B-A84F-B934601AA257}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\ByteBufferAsyncProcessor.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\ByteBufferAsyncProcessor.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\PkgInputStream.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\PkgInputStream.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\PumpScheduler.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\PumpScheduler.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\SocketWire.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\SocketWire.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\WireUtil.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\WireUtil.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_gen_cpp">
+      <UniqueIdentifier>{421C9A01-F452-4C3B-A379-469289BDCFB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src">
+      <UniqueIdentifier>{236F2214-675A-43D2-8AF9-5DE45B177456}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src\RdTextBuffer.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src\RdTextBuffer.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty">
+      <UniqueIdentifier>{BB5D9A54-2F9D-4C90-8806-BE74CD7A6D6B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\thirdparty.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\thirdparty.hpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket">
+      <UniqueIdentifier>{D85A5244-0ACD-4FDC-BB03-E8FBF47A6D83}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\README">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src">
+      <UniqueIdentifier>{D3A8F6FB-0469-49C3-8C94-68AA99DE0698}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\ActiveSocket.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\ActiveSocket.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\Host.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\PassiveSocket.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\PassiveSocket.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\SimpleSocket.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\SimpleSocket.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\StatTimer.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\countdownlatch">
+      <UniqueIdentifier>{E1F8031A-DE00-4785-9D29-B12FD9CDE3C8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\countdownlatch\countdownlatch.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\countdownlatch</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\countdownlatch\countdownlatch.hpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\countdownlatch</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\countdownlatch\LICENSE">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\countdownlatch</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\countdownlatch\README.md">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\countdownlatch</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\CTPL">
+      <UniqueIdentifier>{CEA7C6CC-DDF2-41E2-BD11-6BAA5997D884}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\CTPL\LICENSE">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\CTPL</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\CTPL\README.md">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\CTPL</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\CTPL\include">
+      <UniqueIdentifier>{6ACC9751-15C4-4B5C-B420-CEB9134730A2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\CTPL\include\ctpl_stl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\CTPL\include</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\optional">
+      <UniqueIdentifier>{119B1BC3-1E14-4EA6-94F7-CD457874D42E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\COPYING">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\optional</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\README.md">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\optional</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl">
+      <UniqueIdentifier>{90F33A4A-7F91-4928-9E59-C975D8CC7F91}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl\optional.hpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map">
+      <UniqueIdentifier>{159B14DD-90DA-4B42-AB82-B658AB496BF5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\LICENSE">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\README.md">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include">
+      <UniqueIdentifier>{170EDEE4-BCCF-4027-9857-C86918099C41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl">
+      <UniqueIdentifier>{22E30FCF-5638-4B38-BB98-8AD89E9717EB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_hash.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_map.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_set.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog">
+      <UniqueIdentifier>{2646D303-E600-44A7-B033-D0D178F45EA9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\LICENSE">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\README.md">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake">
+      <UniqueIdentifier>{6FB9445A-9D4B-4927-868A-089C28CB9545}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake\ide.cmake">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake\pch.h.in">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake\spdlog.pc.in">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake\spdlogConfig.cmake.in">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake\spdlogCPack.cmake">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake\utils.cmake">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake\version.rc.in">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\cmake</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include">
+      <UniqueIdentifier>{787B330C-3C2C-4596-A769-570F8B31AA26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog">
+      <UniqueIdentifier>{A24FD7B7-36BA-4881-AE12-E4CCF9CE489A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\async.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\async_logger-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\async_logger.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\common-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\common.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\formatter.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fwd.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\logger-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\logger.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\pattern_formatter-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\pattern_formatter.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\spdlog-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\spdlog.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\tweakme.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\version.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg">
+      <UniqueIdentifier>{EF34CCAA-5F0F-4C1F-ABCA-D14BB7F5F371}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg\argv.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg\env.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg\helpers-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg\helpers.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg\log_levels.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\cfg</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details">
+      <UniqueIdentifier>{DAE5A5A4-17B0-49C3-983F-F7D4C1253524}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\backtracer-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\backtracer.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\circular_q.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\console_globals.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\file_helper-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\file_helper.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\fmt_helper.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\log_msg-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\log_msg.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\log_msg_buffer-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\log_msg_buffer.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\mpmc_blocking_q.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\null_mutex.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\os-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\os.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\periodic_worker-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\periodic_worker.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\registry-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\registry.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\synchronous_factory.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\tcp_client-windows.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\tcp_client.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\thread_pool-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\thread_pool.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details\windows_include.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\details</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt">
+      <UniqueIdentifier>{0DFAF0B1-E72E-428F-9064-53BF6E1CB707}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bin_to_hex.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\fmt.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\ostr.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled">
+      <UniqueIdentifier>{3DDCE71A-A129-4455-8927-020D28AD5AA5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\chrono.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\color.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\compile.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\core.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\format-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\format.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\LICENSE.rst">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\locale.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\ostream.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\posix.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\printf.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled\ranges.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks">
+      <UniqueIdentifier>{1F85E09F-0B11-48AA-BD17-1FDC135FB506}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\android_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\ansicolor_sink-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\ansicolor_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\base_sink-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\base_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\basic_file_sink-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\basic_file_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\daily_file_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\dist_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\dup_filter_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\msvc_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\null_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\ostream_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\ringbuffer_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\rotating_file_sink-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\rotating_file_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\sink-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\stdout_color_sinks-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\stdout_color_sinks.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\stdout_sinks-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\stdout_sinks.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\syslog_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\systemd_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\tcp_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\wincolor_sink-inl.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\wincolor_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks\win_eventlog_sink.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog\sinks</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\logos">
+      <UniqueIdentifier>{B392C0A7-3291-43D3-9FA9-8E52DA10ED1A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\logos\jetbrains-variant-4.svg">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\logos</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\scripts">
+      <UniqueIdentifier>{B2F5F0CB-8F75-4CFC-BE20-FE65924EDD4A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\scripts\extract_version.py">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\scripts</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\scripts\format.sh">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\scripts</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\src">
+      <UniqueIdentifier>{225FA87B-BC24-47F8-9B6A-BCFCA949F6EA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\src\async.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\src\cfg.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\src\color_sinks.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\src\file_sinks.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\src\fmt.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\src\spdlog.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\src\stdout_sinks.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\src</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite">
+      <UniqueIdentifier>{90DAC28A-AB06-46B9-B6A6-A1D93C571BFB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\LICENSE.txt">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\README.md">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\cmake">
+      <UniqueIdentifier>{E0C42DE2-9C71-474F-9B4E-9FD7FED830C2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\cmake\string_view-lite-config.cmake.in">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\cmake</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include">
+      <UniqueIdentifier>{FC9923C1-5F6F-4D51-8F42-5043ACAD94BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd">
+      <UniqueIdentifier>{D7935F48-4DB3-45C0-B9C2-CE263C2FF925}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd\string_view.hpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\variant">
+      <UniqueIdentifier>{BA2796ED-9BD7-4FD9-A976-61B33525AFEC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\CMakeLists.txt">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\variant</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\LICENSE.md">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\variant</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\README.md">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\variant</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\cmake">
+      <UniqueIdentifier>{7A00D619-32EE-4716-983E-994A2C4DBC1F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\cmake\mpark_variant-config.cmake.in">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\cmake</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include">
+      <UniqueIdentifier>{BFA72CD9-1570-41B3-A7A6-FC164D3F36D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark">
+      <UniqueIdentifier>{231E6E57-C067-4DC4-BAE3-731E16CFAD6E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\config.hpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\in_place.hpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\lib.hpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\variant.hpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\RiderLink.uplugin">
+      <Filter>Plugins\Developer\RiderLink</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Resources">
+      <UniqueIdentifier>{1C3C2627-D26C-4092-A355-6D7C99A777A0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Resources\Icon128.png">
+      <Filter>Plugins\Developer\RiderLink\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderBlueprintExtension">
+      <UniqueIdentifier>{C3092C10-70B2-479F-A603-AA846F6816FE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RiderBlueprintExtension\RiderBlueprintExtension.Build.cs">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderBlueprintExtension</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderBlueprintExtension\Private">
+      <UniqueIdentifier>{86075BE5-D9CF-4B59-87AB-0C0557377BF0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderBlueprintExtension\Private\BlueprintProvider.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderBlueprintExtension\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderBlueprintExtension\Private\RiderBlueprintExtension.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderBlueprintExtension\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderBlueprintExtension\Public">
+      <UniqueIdentifier>{573F9C9A-0E03-494A-B746-F99FCF961FE3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RiderBlueprintExtension\Public\BlueprintProvider.hpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderBlueprintExtension\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RiderBlueprintExtension\Public\RiderBlueprintExtension.hpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderBlueprintExtension\Public</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderGameControlExtension">
+      <UniqueIdentifier>{E645000C-30A9-4BB8-B39A-537FA82BAF0B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RiderGameControlExtension\RiderGameControlExtension.Build.cs">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderGameControlExtension</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderGameControlExtension\Private">
+      <UniqueIdentifier>{86127B7A-4470-4E86-8BAD-03D6AE2C9ACF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderGameControlExtension\Private\RiderGameControlExtension.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderGameControlExtension\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderGameControlExtension\Public">
+      <UniqueIdentifier>{9CC5A5AB-C279-4FE0-8238-9FD3471242B3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RiderGameControlExtension\Public\RiderGameControlExtension.hpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderGameControlExtension\Public</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderLink">
+      <UniqueIdentifier>{086AEB26-D978-47D7-AC0C-CE1DFD4BBF36}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\RiderLink.Build.cs">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderLink\Private">
+      <UniqueIdentifier>{A36DB619-4C67-4544-862D-5392C74E073D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Private\ProtocolFactory.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Private\ProtocolFactory.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Private\RdConnection.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Private\RiderLink.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Private\UE4TypesMarshallers.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderLink\Public">
+      <UniqueIdentifier>{B35C66FF-F860-49DA-845F-9977EE801B57}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\RdConnection.hpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\RiderLink.hpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\UE4TypesMarshallers.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderLink\Public\Model">
+      <UniqueIdentifier>{D1EA8762-691B-40EC-940A-2199E6B170BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library">
+      <UniqueIdentifier>{BF240574-56C0-4ABD-AECC-0666980F192F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\instantiations.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\instantiations.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library">
+      <UniqueIdentifier>{1CB8D9FF-F18E-48A2-BE32-E4BFE8A88581}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintFunction.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintFunction.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintHighlighter.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintHighlighter.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintReference.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintReference.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\EmptyScriptCallStack.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\EmptyScriptCallStack.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptCallStack.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptCallStack.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptCallStack_Unknown.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptCallStack_Unknown.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptMsg.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptMsg.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptMsg_Unknown.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptMsg_Unknown.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\LogMessageInfo.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\LogMessageInfo.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\PlayState.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\PlayState.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptCallStack.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptCallStack.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptCallStackFrame.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptCallStackFrame.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptMsgCallStack.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptMsgCallStack.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptMsgException.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptMsgException.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\StringRange.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\StringRange.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\UClass.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\UClass.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\UE4Library.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\UE4Library.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\UnableToDisplayScriptCallStack.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\UnableToDisplayScriptCallStack.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\UnrealLogEvent.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\UnrealLogEvent.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol">
+      <UniqueIdentifier>{F738E6C9-8E3C-485A-BA59-F2D1ED8AD882}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\instantiationsRdEditorProtocol.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\instantiationsRdEditorProtocol.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel">
+      <UniqueIdentifier>{E525AD29-C9D8-4A12-971E-2BA5124CA572}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel\RdEditorModel.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel\RdEditorModel.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorRoot">
+      <UniqueIdentifier>{E02B01A5-C875-4FF5-BBD6-3418978862A5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorRoot\RdEditorRoot.Generated.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorRoot</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorRoot\RdEditorRoot.Generated.h">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorRoot</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderLoggingExtension">
+      <UniqueIdentifier>{53E60C88-7F35-42A3-A83B-DB75567D9E67}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RiderLoggingExtension\RiderLoggingExtension.Build.cs">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLoggingExtension</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderLoggingExtension\Private">
+      <UniqueIdentifier>{CEBD4298-AD13-4D25-BB73-41FA3F10F38D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLoggingExtension\Private\RiderLoggingExtension.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLoggingExtension\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Developer\RiderLink\Source\RiderLoggingExtension\Private\RiderOutputDevice.cpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLoggingExtension\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RiderLoggingExtension\Private\RiderOutputDevice.hpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLoggingExtension\Private</Filter>
+    </None>
+    <Filter Include="Plugins\Developer\RiderLink\Source\RiderLoggingExtension\Public">
+      <UniqueIdentifier>{566E05F6-88A2-4DFD-AF48-629BA00B4663}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Developer\RiderLink\Source\RiderLoggingExtension\Public\RiderLoggingExtension.hpp">
+      <Filter>Plugins\Developer\RiderLink\Source\RiderLoggingExtension\Public</Filter>
+    </None>
+    <Filter Include="Source\ToonTanks">
+      <UniqueIdentifier>{65CD9E4D-10EE-44ED-BF60-FD132583180D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTanks\ToonTanks.Build.cs">
+      <Filter>Source\ToonTanks</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ToonTanks\ToonTanks.cpp">
+      <Filter>Source\ToonTanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\ToonTanks.h">
+      <Filter>Source\ToonTanks</Filter>
+    </ClInclude>
+    <Filter Include="Source\ToonTanks\Actors">
+      <UniqueIdentifier>{3A47903E-D3D5-4627-8FF3-C17012AE0942}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ToonTanks\Actors\ProjectileBase.cpp">
+      <Filter>Source\ToonTanks\Actors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\Actors\ProjectileBase.h">
+      <Filter>Source\ToonTanks\Actors</Filter>
+    </ClInclude>
+    <Filter Include="Source\ToonTanks\Components">
+      <UniqueIdentifier>{1B3439E5-6A27-44C3-8A8F-CD15BF69F78F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ToonTanks\Components\HealthComponent.cpp">
+      <Filter>Source\ToonTanks\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\Components\HealthComponent.h">
+      <Filter>Source\ToonTanks\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\ToonTanks\GameModes">
+      <UniqueIdentifier>{3AF0842A-9295-4FC2-877D-01D2C2E9387F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ToonTanks\GameModes\TankGameModeBase.cpp">
+      <Filter>Source\ToonTanks\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\GameModes\TankGameModeBase.h">
+      <Filter>Source\ToonTanks\GameModes</Filter>
+    </ClInclude>
+    <Filter Include="Source\ToonTanks\Pawns">
+      <UniqueIdentifier>{FEDEDF1F-CB17-4938-94FB-B8D9255B2B93}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ToonTanks\Pawns\PawnBase.cpp">
+      <Filter>Source\ToonTanks\Pawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\Pawns\PawnBase.h">
+      <Filter>Source\ToonTanks\Pawns</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ToonTanks\Pawns\PawnTank.cpp">
+      <Filter>Source\ToonTanks\Pawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\Pawns\PawnTank.h">
+      <Filter>Source\ToonTanks\Pawns</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ToonTanks\Pawns\PawnTurret.cpp">
+      <Filter>Source\ToonTanks\Pawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\Pawns\PawnTurret.h">
+      <Filter>Source\ToonTanks\Pawns</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

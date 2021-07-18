@@ -3,8 +3,11 @@
 
 #include "OpenDoor.h"
 #include "GameFramework/Actor.h"
-#include "GameFramework/PlayerController.h"
 #include "Engine/World.h"
+#include "Components/AudioComponent.h"
+#include "Components/PrimitiveComponent.h"
+
+#define OUT
 
 // Sets default values for this component's properties
 UOpenDoor::UOpenDoor()
@@ -12,8 +15,6 @@ UOpenDoor::UOpenDoor()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-	
-	// ...
 }
 
 
@@ -29,7 +30,7 @@ void UOpenDoor::BeginPlay()
 	if(!PressurePlate)
 		UE_LOG(LogTemp, Warning, TEXT("%s does not have a PressurePlate component but has a OpenDoor component"), *GetOwner()->GetName());
 
-	ActorThatOpensDoor = GetWorld()->GetFirstPlayerController()->GetPawn();
+	AudioComponentManager();
 }
 
 
@@ -44,14 +45,16 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 void UOpenDoor::OpenDoor(float DeltaTime)
 {
 	//Checa se alguma coisa pode ativar o Pressure Plate e se está ativo no momento
-	if(PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpensDoor))
+	if(PressurePlate && TotalMassOfActors() >= MassThatOpensDoor)
 	{
-		// while(CurrentRotation != FinalRotation)
+		//Define rotation
+		CurrentRotation = FMath::FInterpConstantTo(CurrentRotation, OpenDoorAngle, DeltaTime * DoorOpenSpeed,45);;
+		GetOwner()->SetActorRotation(FRotator(0,CurrentRotation,0), ETeleportType::None);
+		TimeWhenDoorWasOpen = GetWorld()->GetTimeSeconds();
+		if(!AudioComponent->IsPlaying() && AudioPlayed == false)
 		{
-			//Define rotation
-			CurrentRotation = FMath::FInterpConstantTo(CurrentRotation, OpenDoorAngle, DeltaTime * DoorOpenSpeed,45);;
-			GetOwner()->SetActorRotation(FRotator(0,CurrentRotation,0), ETeleportType::None);
-			TimeWhenDoorWasOpen = GetWorld()->GetTimeSeconds();
+			AudioComponent->Play();
+			AudioPlayed = true;
 		}
 	}	
 }
@@ -59,13 +62,34 @@ void UOpenDoor::OpenDoor(float DeltaTime)
 void UOpenDoor::CloseDoor(float DeltaTime)
 {
 	//Checa se alguma coisa pode ativar o Pressure Plate e se está ativo no momento
-	if(PressurePlate && !PressurePlate->IsOverlappingActor(ActorThatOpensDoor) && TimeWhenDoorWasOpen+CloseDelay <= GetWorld()->GetTimeSeconds())
+	if(PressurePlate && TotalMassOfActors() < MassThatOpensDoor && TimeWhenDoorWasOpen != 0.f && TimeWhenDoorWasOpen+CloseDelay <= GetWorld()->GetTimeSeconds())
 	{
 		//Define rotation
 		CurrentRotation = FMath::FInterpConstantTo(CurrentRotation, 0, DeltaTime * DoorCloseSpeed,45);;
 		GetOwner()->SetActorRotation(FRotator(0,CurrentRotation,0), ETeleportType::None);
+		if(!AudioComponent->IsPlaying() && AudioPlayed == true)
+		{
+			AudioComponent->Play();
+			AudioPlayed = false;
+		}
 	}	
 }
 
+float UOpenDoor::TotalMassOfActors() const
+{
+	float TotalMass = 0.f;
+	//Find all overlapping actors
+	TArray<AActor*> OverlappingActors;
+	PressurePlate->GetOverlappingActors(OverlappingActors);
+	for (AActor* OverlappingActor : OverlappingActors)
+		TotalMass += OverlappingActor->FindComponentByClass<UPrimitiveComponent>()->GetMass();
+	// UE_LOG(LogTemp, Warning, TEXT("Total mass %f"), TotalMass);
+	return TotalMass;
+}
 
-
+void UOpenDoor::AudioComponentManager()
+{
+	AudioComponent = GetOwner()->FindComponentByClass<UAudioComponent>();
+	if(!AudioComponent)
+		UE_LOG(LogTemp, Error, TEXT("Não foi possível encontrar AudioComponent no componente %s"), *GetOwner()->GetName());
+}

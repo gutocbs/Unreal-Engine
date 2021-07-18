@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Unreal\\Projects\\ToonTanks\\Intermediate\\ProjectFiles\\UE4.vcxproj": {}
+  },
+  "projects": {
+    "F:\\Unreal\\Projects\\ToonTanks\\Intermediate\\ProjectFiles\\UE4.vcxproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Unreal\\Projects\\ToonTanks\\Intermediate\\ProjectFiles\\UE4.vcxproj",
+        "projectName": "UE4",
+        "projectPath": "F:\\Unreal\\Projects\\ToonTanks\\Intermediate\\ProjectFiles\\UE4.vcxproj",
+        "packagesPath": "C:\\Users\\Augusto\\.nuget\\packages\\",
+        "outputPath": "F:\\Unreal\\Projects\\ToonTanks\\Intermediate\\ProjectFiles\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Augusto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "native"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    }
+  }
+}

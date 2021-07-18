@@ -4,30 +4,332 @@
     <projectFile>Intermediate/ProjectFiles/EscapeRoom.vcxproj</projectFile>
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c03d002-de73-42ad-b220-cc316457a9fe" name="Default Changelist" comment="" />
+    <list default="true" id="2c03d002-de73-42ad-b220-cc316457a9fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/Sounds/door-lock.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Backup/InitialMap_2020-12-05-22-52-48.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Backup/InitialMap_2020-12-06-12-11-08.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Backup/InitialMap_2020-12-06-12-32-02.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Backup/InitialMap_2020-12-06-15-09-38.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Backup/InitialMap_2020-12-06-15-19-39.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Backup/InitialMap_2020-12-06-15-28-59.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Backup/InitialMap_2020-12-06-15-38-59.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Backup/InitialMap_2020-12-06-15-47-35.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Backup/InitialMap_2020-12-06-16-01-31.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-672716E149B9D487A321C19DB8C8E27B_0001/CrashContext.runtime-xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-672716E149B9D487A321C19DB8C8E27B_0001/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-672716E149B9D487A321C19DB8C8E27B_0001/EscapeRoom.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-672716E149B9D487A321C19DB8C8E27B_0001/UE4Minidump.dmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-7B00164F442BCB01B0DD0E9935C540D5_0001/CrashContext.runtime-xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-7B00164F442BCB01B0DD0E9935C540D5_0001/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-7B00164F442BCB01B0DD0E9935C540D5_0001/EscapeRoom.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-7B00164F442BCB01B0DD0E9935C540D5_0001/UE4Minidump.dmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-7CB9096343E8E16A130052945F8367E3_0001/CrashContext.runtime-xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-7CB9096343E8E16A130052945F8367E3_0001/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-7CB9096343E8E16A130052945F8367E3_0001/EscapeRoom.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-7CB9096343E8E16A130052945F8367E3_0001/UE4Minidump.dmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-9663DD54484DB3DFDDD81E88B094D2B2_0001/CrashContext.runtime-xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-9663DD54484DB3DFDDD81E88B094D2B2_0001/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-9663DD54484DB3DFDDD81E88B094D2B2_0001/EscapeRoom.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-9663DD54484DB3DFDDD81E88B094D2B2_0001/UE4Minidump.dmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-CDF2826445EA12115A02108D3AA768BC_0001/CrashContext.runtime-xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-CDF2826445EA12115A02108D3AA768BC_0001/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-CDF2826445EA12115A02108D3AA768BC_0001/EscapeRoom.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-CDF2826445EA12115A02108D3AA768BC_0001/UE4Minidump.dmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/EscapeRoom-backup-2020.12.06-01.52.48.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/EscapeRoom-backup-2020.12.06-14.58.29.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/EscapeRoom-backup-2020.12.06-16.40.39.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/EscapeRoom-backup-2020.12.06-16.41.25.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/EscapeRoom-backup-2020.12.06-18.50.52.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/EscapeRoom-backup-2020.12.06-18.57.48.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/EscapeRoom_2-backup-2020.12.06-16.40.13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/EscapeRoom_2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EscapeRoom/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EscapeRoom/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EscapeRoom/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EscapeRoom/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EscapeRoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EscapeRoom/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-EscapeRoom-0001.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_DefaultPawn.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_DefaultPawn.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Levels/InitialMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Levels/InitialMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/EscapeRoomEditor/ActionHistory.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/EscapeRoomEditor/ActionHistory.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/EscapeRoomEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/EscapeRoomEditor/Development/DependencyCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/EscapeRoomEditor/Development/EscapeRoomEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/EscapeRoomEditor/Development/EscapeRoomEditor.uhtmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/EscapeRoomEditor/Development/HotReload.state" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/EscapeRoomEditor/Development/HotReload.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/EscapeRoomEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/EscapeRoomEditor/Development/Makefile.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/EscapeRoomEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/EscapeRoomEditor/Development/Metadata-HotReload.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/Grabber.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/Grabber.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/OpenDoor.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/OpenDoor.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0001.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0001.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0001.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0001.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0174.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0174.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0174.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0174.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0197.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0197.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0197.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0197.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0261.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0261.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0261.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0261.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0402.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0402.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0402.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0402.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0852.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0852.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0852.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0852.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0975.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0975.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0975.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-0975.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-1215.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-1215.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-1215.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-1215.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-1507.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-1507.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-1565.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-1565.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-1565.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-1565.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-1811.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-1811.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-1811.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-1811.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2189.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2189.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2189.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2189.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2429.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2429.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2429.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2429.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2436.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2436.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2436.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2436.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2487.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2487.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2487.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2487.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2526.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2526.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2526.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2526.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2581.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2581.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2581.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2581.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2612.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2612.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2612.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2612.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2748.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2748.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2748.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2748.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2925.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2925.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2925.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2925.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2969.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2969.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2969.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-2969.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3148.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3148.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3148.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3148.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3318.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3318.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3318.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3318.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3750.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3750.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3750.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3750.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3759.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3759.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3759.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3759.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3769.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3769.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3769.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-3769.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-4265.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-4265.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-4265.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-4265.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-4393.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-4393.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-4393.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-4393.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-4584.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-4584.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-4584.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-4584.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-4677.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-4677.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-4677.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-4677.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-5023.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-5023.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-5023.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-5023.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-5878.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-5878.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-5878.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-5878.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-5941.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-5941.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-5941.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-5941.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6073.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6073.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6073.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6073.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6089.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6089.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6089.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6089.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6283.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6283.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6283.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6283.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6476.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6476.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6476.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6476.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6753.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6753.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6753.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6753.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6874.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6874.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6874.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6874.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6967.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6967.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6967.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6967.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6987.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6987.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6987.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-6987.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7386.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7386.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7386.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7386.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7478.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7478.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7478.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7478.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7784.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7784.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7784.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7784.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7828.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7828.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7828.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7828.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7874.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7874.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7874.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-7874.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-8054.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-8054.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-8054.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-8054.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-8095.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-8095.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-8095.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-8095.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-8349.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-8349.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-8349.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-8349.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-8380.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-8380.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-8380.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-8380.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9175.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9175.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9175.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9175.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9180.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9180.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9180.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9180.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9402.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9402.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9402.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9402.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9547.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9547.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9547.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9547.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9650.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom-9650.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom.dll.response.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/EscapeRoom/UE4Editor-EscapeRoom.lib.response.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/EscapeRoom/EscapeRoom.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/EscapeRoom/EscapeRoom.init.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/EscapeRoom/Grabber.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/EscapeRoom/Grabber.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/EscapeRoom/Grabber.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/EscapeRoom/Grabber.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/EscapeRoom/OpenDoor.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/EscapeRoom/OpenDoor.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/EscapeRoom/OpenDoor.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/EscapeRoom/OpenDoor.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/EscapeRoom/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/EscapeRoom/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Levels/InitialMap_Auto1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Levels/InitialMap_Auto1.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Levels/InitialMap_Auto2.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Levels/InitialMap_Auto2.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Levels/InitialMap_Auto3.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Levels/InitialMap_Auto3.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-7AAFC5824DFD8CFD18BC88BA280BA7E9/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/EscapeRoom.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/EscapeRoom.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/EscapeRoom/Grabber.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/EscapeRoom/Grabber.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/EscapeRoom/Grabber.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/EscapeRoom/Grabber.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/EscapeRoom/OpenDoor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/EscapeRoom/OpenDoor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/EscapeRoom/OpenDoor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/EscapeRoom/OpenDoor.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Source/EscapeRoom/OpenDoor.h" />
-        <option value="$PROJECT_DIR$/Source/EscapeRoom/OpenDoor.cpp" />
-        <option value="$PROJECT_DIR$/Source/EscapeRoom/WorldPosition.cpp" />
-        <option value="$PROJECT_DIR$/Source/EscapeRoom/Grabber.h" />
-        <option value="$PROJECT_DIR$/Source/EscapeRoom/Grabber.cpp" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://D:/64x/Epic Games/UE_4.25/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/ApexDefs.h" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1kcs4D91dAwoMucWvFs6q4oWICH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -260,6 +562,9 @@
       <workItem from="1606596771205" duration="4785000" />
       <workItem from="1606664080012" duration="12023000" />
       <workItem from="1607190612576" duration="7113000" />
+      <workItem from="1607200958155" duration="5294000" />
+      <workItem from="1607266524374" duration="8309000" />
+      <workItem from="1613857766822" duration="665000" />
     </task>
     <servers />
   </component>
@@ -268,7 +573,20 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

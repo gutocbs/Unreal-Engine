@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\Unreal\\Projects\\MeninasCavalo\\Source\\MeninasCavalo\\MeninasCavalo.Build.cs",
+		"F:\\Unreal\\Projects\\MeninasCavalo\\Source\\MeninasCavalo.Target.cs",
+		"F:\\Unreal\\Projects\\MeninasCavalo\\Source\\MeninasCavaloEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

@@ -61,10 +61,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOpenDoor); \
 #define EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__OpenDoorAngle() { return STRUCT_OFFSET(UOpenDoor, OpenDoorAngle); } \
 	FORCEINLINE static uint32 __PPO__PressurePlate() { return STRUCT_OFFSET(UOpenDoor, PressurePlate); } \
-	FORCEINLINE static uint32 __PPO__ActorThatOpensDoor() { return STRUCT_OFFSET(UOpenDoor, ActorThatOpensDoor); } \
+	FORCEINLINE static uint32 __PPO__MassThatOpensDoor() { return STRUCT_OFFSET(UOpenDoor, MassThatOpensDoor); } \
 	FORCEINLINE static uint32 __PPO__CloseDelay() { return STRUCT_OFFSET(UOpenDoor, CloseDelay); } \
 	FORCEINLINE static uint32 __PPO__DoorOpenSpeed() { return STRUCT_OFFSET(UOpenDoor, DoorOpenSpeed); } \
-	FORCEINLINE static uint32 __PPO__DoorCloseSpeed() { return STRUCT_OFFSET(UOpenDoor, DoorCloseSpeed); }
+	FORCEINLINE static uint32 __PPO__DoorCloseSpeed() { return STRUCT_OFFSET(UOpenDoor, DoorCloseSpeed); } \
+	FORCEINLINE static uint32 __PPO__AudioComponent() { return STRUCT_OFFSET(UOpenDoor, AudioComponent); }
 
 
 #define EscapeRoom_Source_EscapeRoom_OpenDoor_h_12_PROLOG

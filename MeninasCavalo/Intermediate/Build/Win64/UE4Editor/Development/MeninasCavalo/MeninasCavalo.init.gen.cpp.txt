@@ -1,0 +1,3 @@
+F:\Unreal\Projects\MeninasCavalo\Intermediate\Build\Win64\UE4Editor\Development\MeninasCavalo\Definitions.MeninasCavalo.h
+D:\64x\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\64x\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

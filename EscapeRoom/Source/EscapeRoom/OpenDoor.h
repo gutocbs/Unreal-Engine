@@ -27,6 +27,12 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	void OpenDoor(float DeltaTime);
 	void CloseDoor(float DeltaTime);
+
+	//Check if the total mass of objects can open the door
+	float TotalMassOfActors() const;
+
+	void AudioComponentManager();
+	
 private:
 	//Door Rotation
 	float InitialRotation;
@@ -38,7 +44,7 @@ private:
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate;
 	UPROPERTY(EditAnywhere)
-	AActor* ActorThatOpensDoor;
+	float MassThatOpensDoor = 50.f;
 
 	//Time before door closes
 	UPROPERTY(EditAnywhere)
@@ -50,4 +56,9 @@ private:
 	float DoorOpenSpeed = 1.f;
 	UPROPERTY(EditAnywhere)
 	float DoorCloseSpeed = 1.f;
+
+	//Sound properties
+	UPROPERTY()
+	UAudioComponent* AudioComponent = nullptr;
+	bool AudioPlayed = false;
 };

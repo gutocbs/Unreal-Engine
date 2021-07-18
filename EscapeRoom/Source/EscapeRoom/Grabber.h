@@ -31,14 +31,18 @@ protected:
 	virtual void BeginPlay() override;
 	
 private:
-	// FVector PlayerViewPointLocation;
-	// FRotator PlayerViewPointRotation;
+	FVector PlayerViewPointLocation;
+	FRotator PlayerViewPointRotation;
 
 	UPROPERTY(EditAnywhere)
 	float Reach = 100.f;
-
+	
+	UPROPERTY()
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
+	UPROPERTY()
 	UInputComponent* InputComponent = nullptr;
 
-	FHitResult GetFirstPhysicsBodyInReach() const;
+	FHitResult GetFirstPhysicsBodyInReach();
+	FVector GetLineTraceEnd();
+	
 };

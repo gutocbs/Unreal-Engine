@@ -1,0 +1,2 @@
+F:\Unreal\Projects\MeninasCavalo\Intermediate\Build\Win64\UE4Editor\Development\MeninasCavalo\Definitions.MeninasCavalo.h
+F:\Unreal\Projects\MeninasCavalo\Source\MeninasCavalo\MeninasCavalo.h
